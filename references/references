@@ -1,0 +1,14 @@
+ Список источников
+1.	Goetz, B. et al. Java Concurrency in Practice . Addison-Wesley, 2006.
+2.	Herlihy, M., Shavit, N. The Art of Multiprocessor Programming . Morgan Kaufmann, 2008.
+3.	Birrell, A. An Introduction to Programming with Threads . Digital Equipment Corporation, 2003.
+4.	Burns, J.E., Peterson, G.L. The Best Algorithm for Mutual Exclusion . ACM Transactions on Programming Languages and Systems, 1983.
+5.	Ben-Ari, M. Principles of Concurrent and Distributed Programming . Addison-Wesley, 2006.
+6.	https://habr.com/ru/articles/345144/
+7.	https://www.geeksforgeeks.org/deadlock-starvation-and-livelock/
+8.	https://learn.microsoft.com/en-us/dotnet/csharp/async
+9.	https://pkg.go.dev/sync#Mutex
+10.	https://medium.com/@tyler.treat/advanced-concurrency-in-go-84f2fe1e35b0
+11.	https://gobyexample.com/mutexes
+12.	https://go.dev/tour/concurrency/1
+13.	https://github.com/golang/go/wiki/MutexOrChannel
