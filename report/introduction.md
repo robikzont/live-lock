@@ -28,11 +28,9 @@ import (
     "sync"
     "time"
 )
-
 type Chopstick struct {
     mutex sync.Mutex
 }
-
 func (c *Chopstick) PickUp(wg *sync.WaitGroup) {
     defer wg.Done()
     for {
@@ -47,15 +45,12 @@ func (c *Chopstick) PickUp(wg *sync.WaitGroup) {
         }
     }
 }
-
 func main() {
     var wg sync.WaitGroup
     cs := &Chopstick{}
-
     wg.Add(2)
     go cs.PickUp(&wg)
     go cs.PickUp(&wg)
-
     wg.Wait()
 }
 
